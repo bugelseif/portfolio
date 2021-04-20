@@ -8,15 +8,22 @@
 }
 
 h1{
-    font-size: 1.8rem;
-
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
 }
 p, a, h1{
     color: var(--gold);
-
 }
 
-h2, i{
+h2, h3, i{
     color: var(--gray)
 }
 
@@ -46,17 +53,22 @@ main{
     margin: 2%;
 }
 
-.apresentacao{
+.apresentacao{  
+    background-image: linear-gradient(black, black), url("assets/img/15.jpg");
+    background-size: cover;
+    background-blend-mode: saturation;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--darkgray);
     height: 100vh;
     padding: 20px;
 }
 .apresentacao>h1{
     text-align: center;
+    font-family: 'Patua One', cursive;
     margin: 5px;
+    text-shadow: 1px 1px 10px var(--gold);
+
 }
 .apresentacao>h2{
     font-size: 1.5rem;
@@ -68,15 +80,16 @@ main{
     display: block;
     text-align: center;
     margin: 10px 0;
+
 }
 .icones{
-    font-size: 2.3rem;
+    font-size: 2.5rem;
 }
 
 .sobre{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     min-height: 50vh;
     padding: 20px;
@@ -115,7 +128,6 @@ main{
     border-radius: 5px;
     margin: 5px;
     padding: 15px;
-
 }
 
 
