@@ -6,6 +6,16 @@
     --gold: rgb(140, 113, 32);
 
 }
+#tamanho{
+    top: 50px;
+    width: 1vh;
+    position: fixed;
+}
+
+.quadros{
+    width: 10px;
+    height: 10px;
+}
 
 h1{
     font-size: 2.5rem;
